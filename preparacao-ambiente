@@ -1,0 +1,22 @@
+# Passos para instalação no novo ambiente virtual
+
+1 COMANDO PARA CRIAR UM NOVO AMBIENTE COM O CONDA
+
+conda create --name (-n) <ENV_NAME>
+
+conda env list
+
+conda env remove -n meu_env_virtual
+
+conda activate meu_env_virtual
+
+conda deactivate
+
+conda search django
+
+2 INSTALANDO JUPYTER NOTEBOOK
+
+conda install jupyter notebook
+
+conda install -c conda-forge jupyter_contrib_nbextensions
+
